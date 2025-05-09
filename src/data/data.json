@@ -1,0 +1,673 @@
+{
+  "quizzes": {
+    "React": [
+      {
+        "id": 1,
+        "question": "What is the command to create a new React application?",
+        "options": [
+          "npx create-react-app myApp",
+          "npm install react",
+          "npm start",
+          "react new myApp"
+        ],
+        "answer": "npx create-react-app myApp"
+      },
+      {
+        "id": 2,
+        "question": "Which of these is used to pass data to a component from outside?",
+        "options": ["props", "state", "setState", "render"],
+        "answer": "props"
+      },
+      {
+        "id": 3,
+        "question": "What is JSX?",
+        "options": [
+          "JavaScript XML",
+          "A state management library",
+          "A testing framework",
+          "A build tool"
+        ],
+        "answer": "JavaScript XML"
+      },
+      {
+        "id": 4,
+        "question": "Which hook is used to manage state in functional components?",
+        "options": ["useEffect", "useState", "useContext", "useReducer"],
+        "answer": "useState"
+      },
+      {
+        "id": 5,
+        "question": "What does ReactDOM.render() do?",
+        "options": [
+          "Compiles JSX",
+          "Renders React elements to the DOM",
+          "Updates props",
+          "Creates virtual DOM"
+        ],
+        "answer": "Renders React elements to the DOM"
+      },
+      {
+        "id": 6,
+        "question": "Which method is called after a component is rendered for the first time?",
+        "options": [
+          "constructor",
+          "componentDidMount",
+          "render",
+          "componentWillUnmount"
+        ],
+        "answer": "componentDidMount"
+      },
+      {
+        "id": 7,
+        "question": "What is the purpose of keys in React lists?",
+        "options": [
+          "To style elements",
+          "To identify elements uniquely",
+          "To add event listeners",
+          "To improve performance"
+        ],
+        "answer": "To identify elements uniquely"
+      },
+      {
+        "id": 8,
+        "question": "Which tool helps inspect React components?",
+        "options": [
+          "React Developer Tools",
+          "Redux DevTools",
+          "Chrome Inspector",
+          "npm"
+        ],
+        "answer": "React Developer Tools"
+      },
+      {
+        "id": 9,
+        "question": "What does the 'export default' do in a component file?",
+        "options": [
+          "Imports dependencies",
+          "Makes the component available for import",
+          "Renders the component",
+          "Updates the state"
+        ],
+        "answer": "Makes the component available for import"
+      },
+      {
+        "id": 10,
+        "question": "Which of these is NOT a React hook?",
+        "options": ["useState", "useEffect", "useComponent", "useContext"],
+        "answer": "useComponent"
+      }
+    ],
+    "JavaScript": [
+      {
+        "id": 1,
+        "question": "Which keyword is used to declare a variable in JavaScript?",
+        "options": ["int", "let", "define", "dim"],
+        "answer": "let"
+      },
+      {
+        "id": 2,
+        "question": "What does 'typeof' operator return for an array?",
+        "options": ["array", "object", "list", "collection"],
+        "answer": "object"
+      },
+      {
+        "id": 3,
+        "question": "Which method adds an element to the end of an array?",
+        "options": ["push()", "pop()", "shift()", "unshift()"],
+        "answer": "push()"
+      },
+      {
+        "id": 4,
+        "question": "What is the result of 2 + '2' in JavaScript?",
+        "options": ["4", "22", "NaN", "Error"],
+        "answer": "22"
+      },
+      {
+        "id": 5,
+        "question": "Which of these is NOT a JavaScript data type?",
+        "options": ["boolean", "number", "character", "symbol"],
+        "answer": "character"
+      },
+      {
+        "id": 6,
+        "question": "What does === operator check?",
+        "options": ["Value only", "Value and type", "Type only", "Reference"],
+        "answer": "Value and type"
+      },
+      {
+        "id": 7,
+        "question": "Which function executes after a specified time interval?",
+        "options": [
+          "setInterval()",
+          "setTimeout()",
+          "clearTimeout()",
+          "wait()"
+        ],
+        "answer": "setTimeout()"
+      },
+      {
+        "id": 8,
+        "question": "What does JSON stand for?",
+        "options": [
+          "JavaScript Object Notation",
+          "JavaScript Oriented Notation",
+          "JavaScript Operator Network",
+          "JavaScript Object Network"
+        ],
+        "answer": "JavaScript Object Notation"
+      },
+      {
+        "id": 9,
+        "question": "Which method converts a string to lowercase?",
+        "options": [
+          "toLowerCase()",
+          "toLower()",
+          "lowerCase()",
+          "convertLower()"
+        ],
+        "answer": "toLowerCase()"
+      },
+      {
+        "id": 10,
+        "question": "What is the purpose of 'use strict'?",
+        "options": [
+          "Enables strict mode",
+          "Disables strict mode",
+          "Optimizes code",
+          "Handles errors"
+        ],
+        "answer": "Enables strict mode"
+      }
+    ],
+    "C++": [
+      {
+        "id": 1,
+        "question": "What is the correct syntax for including a header file in C++?",
+        "options": [
+          "include<iostream>",
+          "#include<iostream>",
+          "<include>iostream",
+          "#import <iostream>"
+        ],
+        "answer": "#include<iostream>"
+      },
+      {
+        "id": 2,
+        "question": "Which operator is used for memory allocation in C++?",
+        "options": ["new", "malloc", "alloc", "create"],
+        "answer": "new"
+      },
+      {
+        "id": 3,
+        "question": "What is the entry point of a C++ program?",
+        "options": ["main()", "start()", "init()", "begin()"],
+        "answer": "main()"
+      },
+      {
+        "id": 4,
+        "question": "Which of these is a valid variable name?",
+        "options": ["int", "2var", "_var", "var-name"],
+        "answer": "_var"
+      },
+      {
+        "id": 5,
+        "question": "What does the 'cout' object do?",
+        "options": [
+          "Output to console",
+          "Input from console",
+          "File operations",
+          "Memory allocation"
+        ],
+        "answer": "Output to console"
+      },
+      {
+        "id": 6,
+        "question": "Which data type is used for true/false values?",
+        "options": ["bool", "bit", "boolean", "flag"],
+        "answer": "bool"
+      },
+      {
+        "id": 7,
+        "question": "What is the size of 'int' in C++?",
+        "options": ["2 bytes", "4 bytes", "Depends on compiler", "8 bytes"],
+        "answer": "Depends on compiler"
+      },
+      {
+        "id": 8,
+        "question": "Which loop is guaranteed to execute at least once?",
+        "options": ["for", "while", "do-while", "foreach"],
+        "answer": "do-while"
+      },
+      {
+        "id": 9,
+        "question": "What is the scope resolution operator?",
+        "options": ["::", ":", ".", "->"],
+        "answer": "::"
+      },
+      {
+        "id": 10,
+        "question": "Which keyword makes a variable constant?",
+        "options": ["const", "final", "static", "fixed"],
+        "answer": "const"
+      }
+    ],
+    "OOPs": [
+      {
+        "id": 1,
+        "question": "Which of these is not a principle of OOP?",
+        "options": [
+          "Encapsulation",
+          "Polymorphism",
+          "Recursion",
+          "Abstraction"
+        ],
+        "answer": "Recursion"
+      },
+      {
+        "id": 2,
+        "question": "What is encapsulation?",
+        "options": [
+          "Bundling data with methods",
+          "Multiple inheritance",
+          "Function overloading",
+          "Memory management"
+        ],
+        "answer": "Bundling data with methods"
+      },
+      {
+        "id": 3,
+        "question": "What is polymorphism?",
+        "options": [
+          "Multiple forms",
+          "Single form",
+          "Data hiding",
+          "Memory allocation"
+        ],
+        "answer": "Multiple forms"
+      },
+      {
+        "id": 4,
+        "question": "What is an object?",
+        "options": [
+          "Instance of a class",
+          "Blueprint",
+          "Function",
+          "Variable"
+        ],
+        "answer": "Instance of a class"
+      },
+      {
+        "id": 5,
+        "question": "What is a class?",
+        "options": [
+          "Blueprint for objects",
+          "Instance of object",
+          "Function",
+          "Variable"
+        ],
+        "answer": "Blueprint for objects"
+      },
+      {
+        "id": 6,
+        "question": "What is inheritance?",
+        "options": [
+          "Creating new classes from existing ones",
+          "Data hiding",
+          "Memory management",
+          "Function overloading"
+        ],
+        "answer": "Creating new classes from existing ones"
+      },
+      {
+        "id": 7,
+        "question": "What is abstraction?",
+        "options": [
+          "Hiding complex implementation",
+          "Memory management",
+          "Function overloading",
+          "Multiple inheritance"
+        ],
+        "answer": "Hiding complex implementation"
+      },
+      {
+        "id": 8,
+        "question": "What is method overriding?",
+        "options": [
+          "Redefining parent class method in child",
+          "Creating new methods",
+          "Hiding methods",
+          "Deleting methods"
+        ],
+        "answer": "Redefining parent class method in child"
+      },
+      {
+        "id": 9,
+        "question": "What is an interface?",
+        "options": [
+          "Contract of methods to implement",
+          "Class implementation",
+          "Function definition",
+          "Variable declaration"
+        ],
+        "answer": "Contract of methods to implement"
+      },
+      {
+        "id": 10,
+        "question": "What is a constructor?",
+        "options": [
+          "Special method for initialization",
+          "Memory allocator",
+          "Function",
+          "Variable"
+        ],
+        "answer": "Special method for initialization"
+      }
+    ],
+    "DBMS": [
+      {
+        "id": 1,
+        "question": "Which SQL statement is used to retrieve data?",
+        "options": ["SELECT", "INSERT", "UPDATE", "DELETE"],
+        "answer": "SELECT"
+      },
+      {
+        "id": 2,
+        "question": "What is a primary key?",
+        "options": [
+          "Unique identifier for a record",
+          "Foreign key",
+          "Index",
+          "Constraint"
+        ],
+        "answer": "Unique identifier for a record"
+      },
+      {
+        "id": 3,
+        "question": "What does SQL stand for?",
+        "options": [
+          "Structured Query Language",
+          "Simple Query Language",
+          "Standard Query Language",
+          "System Query Language"
+        ],
+        "answer": "Structured Query Language"
+      },
+      {
+        "id": 4,
+        "question": "Which clause is used to filter records?",
+        "options": ["WHERE", "SELECT", "FROM", "HAVING"],
+        "answer": "WHERE"
+      },
+      {
+        "id": 5,
+        "question": "What is a foreign key?",
+        "options": [
+          "Reference to primary key in another table",
+          "Primary key",
+          "Unique key",
+          "Index"
+        ],
+        "answer": "Reference to primary key in another table"
+      },
+      {
+        "id": 6,
+        "question": "Which command creates a new table?",
+        "options": ["CREATE TABLE", "NEW TABLE", "ADD TABLE", "MAKE TABLE"],
+        "answer": "CREATE TABLE"
+      },
+      {
+        "id": 7,
+        "question": "What is the purpose of GROUP BY?",
+        "options": [
+          "Group rows by column values",
+          "Filter groups",
+          "Sort results",
+          "Join tables"
+        ],
+        "answer": "Group rows by column values"
+      },
+      {
+        "id": 8,
+        "question": "Which operator tests for NULL values?",
+        "options": ["IS NULL", "EQUALS NULL", "= NULL", "NULL"],
+        "answer": "IS NULL"
+      },
+      {
+        "id": 9,
+        "question": "What does COMMIT do?",
+        "options": [
+          "Saves transactions",
+          "Rolls back",
+          "Deletes data",
+          "Creates table"
+        ],
+        "answer": "Saves transactions"
+      },
+      {
+        "id": 10,
+        "question": "Which join returns all rows from both tables?",
+        "options": ["FULL JOIN", "INNER JOIN", "LEFT JOIN", "RIGHT JOIN"],
+        "answer": "FULL JOIN"
+      }
+    ],
+    "OS": [
+      {
+        "id": 1,
+        "question": "What does an operating system do?",
+        "options": [
+          "Manages hardware and software resources",
+          "Sends emails",
+          "Compiles code",
+          "Formats documents"
+        ],
+        "answer": "Manages hardware and software resources"
+      },
+      {
+        "id": 2,
+        "question": "What is the main function of the kernel?",
+        "options": [
+          "Memory management",
+          "Running applications",
+          "Displaying graphics",
+          "Managing user accounts"
+        ],
+        "answer": "Memory management"
+      },
+      {
+        "id": 3,
+        "question": "What is virtual memory?",
+        "options": [
+          "Using disk space as RAM extension",
+          "Faster RAM",
+          "GPU memory",
+          "Network storage"
+        ],
+        "answer": "Using disk space as RAM extension"
+      },
+      {
+        "id": 4,
+        "question": "What is a file system?",
+        "options": [
+          "Method for storing/organizing files",
+          "File sharing protocol",
+          "Database system",
+          "Backup system"
+        ],
+        "answer": "Method for storing/organizing files"
+      },
+      {
+        "id": 5,
+        "question": "What is multitasking?",
+        "options": [
+          "Running multiple programs simultaneously",
+          "Using multiple CPUs",
+          "Task switching",
+          "Parallel processing"
+        ],
+        "answer": "Running multiple programs simultaneously"
+      },
+      {
+        "id": 6,
+        "question": "What is a shell?",
+        "options": [
+          "Command-line interface",
+          "Kernel wrapper",
+          "File system",
+          "Memory manager"
+        ],
+        "answer": "Command-line interface"
+      },
+      {
+        "id": 7,
+        "question": "What is swapping?",
+        "options": [
+          "Moving processes between RAM and disk",
+          "Memory allocation",
+          "Process scheduling",
+          "File transfer"
+        ],
+        "answer": "Moving processes between RAM and disk"
+      },
+      {
+        "id": 8,
+        "question": "What is a device driver?",
+        "options": [
+          "Software to control hardware",
+          "Hardware component",
+          "File system",
+          "Memory chip"
+        ],
+        "answer": "Software to control hardware"
+      },
+      {
+        "id": 9,
+        "question": "What is a process ID?",
+        "options": [
+          "Unique identifier for a process",
+          "Password",
+          "User ID",
+          "File handle"
+        ],
+        "answer": "Unique identifier for a process"
+      },
+      {
+        "id": 10,
+        "question": "What is the purpose of an interrupt?",
+        "options": [
+          "Signal to CPU for attention",
+          "Process termination",
+          "Memory allocation",
+          "File operation"
+        ],
+        "answer": "Signal to CPU for attention"
+      }
+    ],
+    "Cyber Security": [
+      {
+        "id": 1,
+        "question": "Which of the following is a strong password?",
+        "options": ["123456", "password", "Qw!7z@K9#", "abcdef"],
+        "answer": "Qw!7z@K9#"
+      },
+      {
+        "id": 2,
+        "question": "What is malware?",
+        "options": [
+          "Malicious software",
+          "Memory cleaner",
+          "Legal software",
+          "Operating system"
+        ],
+        "answer": "Malicious software"
+      },
+      {
+        "id": 3,
+        "question": "What is two-factor authentication?",
+        "options": [
+          "Using two verification methods",
+          "Two passwords",
+          "Double encryption",
+          "Two usernames"
+        ],
+        "answer": "Using two verification methods"
+      },
+      {
+        "id": 4,
+        "question": "What is a firewall?",
+        "options": [
+          "Network security system",
+          "Physical barrier",
+          "Virus scanner",
+          "Password manager"
+        ],
+        "answer": "Network security system"
+      },
+      {
+        "id": 5,
+        "question": "What is encryption?",
+        "options": [
+          "Converting data to secure form",
+          "Data compression",
+          "Data backup",
+          "Data transmission"
+        ],
+        "answer": "Converting data to secure form"
+      },
+      {
+        "id": 6,
+        "question": "What is a VPN?",
+        "options": [
+          "Virtual Private Network",
+          "Virus Protection Network",
+          "Visual Private Node",
+          "Verified Public Network"
+        ],
+        "answer": "Virtual Private Network"
+      },
+      {
+        "id": 7,
+        "question": "What is a DDoS attack?",
+        "options": [
+          "Overwhelming a system with traffic",
+          "Data theft",
+          "Password cracking",
+          "Virus infection"
+        ],
+        "answer": "Overwhelming a system with traffic"
+      },
+      {
+        "id": 8,
+        "question": "What is a zero-day exploit?",
+        "options": [
+          "Attack on unknown vulnerability",
+          "Attack at midnight",
+          "No malware attack",
+          "Weak password attack"
+        ],
+        "answer": "Attack on unknown vulnerability"
+      },
+      {
+        "id": 9,
+        "question": "What is social engineering?",
+        "options": [
+          "Manipulating people to gain access",
+          "Software engineering",
+          "Network design",
+          "Data analysis"
+        ],
+        "answer": "Manipulating people to gain access"
+      },
+      {
+        "id": 10,
+        "question": "What is a honeypot?",
+        "options": [
+          "Decoy system to detect attacks",
+          "Password storage",
+          "Encryption tool",
+          "Virus scanner"
+        ],
+        "answer": "Decoy system to detect attacks"
+      }
+    ]
+  }
+}
